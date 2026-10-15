@@ -1,0 +1,28 @@
+{
+    "seniverse_public_key": {
+        "description": "心知天气公钥 (uid)",
+        "type": "string",
+        "hint": "先到心知天气官网注册账号（https://www.seniverse.com/），然后在控制台-产品管理中找到公钥 (uid) 填入此处",
+        "obvious_hint": true
+    },
+    "seniverse_private_key": {
+        "description": "心知天气私钥 (key)",
+        "type": "string",
+        "hint": "同样在心知天气控制台-产品管理中找到私钥 (key)，请妥善保管，不要泄露给他人",
+        "obvious_hint": true
+    },
+    "default_city": {
+        "description": "默认城市",
+        "type": "string",
+        "hint": "当用户没有输入城市时，将使用此配置查询天气，例如：北京",
+        "default": "北京"
+    },
+    "send_mode": {
+        "description": "发送模式",
+        "type": "string",
+        "options": ["text", "image"],
+        "default": "image",
+        "hint": "选择以纯文本还是图片形式发送天气信息（插件默认渲染图片卡片）",
+        "obvious_hint": true
+    }
+}

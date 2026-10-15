@@ -1,0 +1,6 @@
+name: astrbot_plugin_weather
+desc: 一个基于 心知天气 API 的天气查询插件
+help: 输入 /weather help 可获取插件帮助信息
+version: v1.0
+author:ZS-zzz
+repo: https://github.com/ZS-zzz/astrbot_plugin_weather  # 插件仓库地址
